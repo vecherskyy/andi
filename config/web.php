@@ -8,6 +8,11 @@ $config = [
     'bootstrap' => ['log'],
     'language' => 'ru-Ru',
     'defaultRoute' => 'user/create',
+    'modules' => [
+        'post' => [
+            'class' => 'app\modules\post\Module',
+        ],
+    ],
     'components' => [
 
         'request' => [

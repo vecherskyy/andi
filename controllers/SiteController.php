@@ -100,4 +100,11 @@ class SiteController extends Controller
             'model' => $model
         ]);
     }
+
+
+   public function actionSingleton()
+   {
+       //$singleton = \Sigleton::getInstance();
+       return $this->render('singleton');
+   }
 }
